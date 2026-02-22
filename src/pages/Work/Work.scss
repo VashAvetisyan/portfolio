@@ -1,0 +1,43 @@
+.work {
+
+	&__navbar {
+		display: flex;
+		margin-top: 24px;
+		margin-left: auto;
+		width: fit-content;
+		gap: 16px;
+
+		@media (max-width: 768px) {
+			margin-left: 0;
+			width: 100%;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
+
+		@media (max-width: 480px) {
+			gap: 8px;
+		}
+	}
+
+	&__main {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 32px;
+		margin-top: 32px;
+
+		@media (max-width: 1024px) {
+			grid-template-columns: 1fr;
+			gap: 20px;
+			margin-top: 24px;
+		}
+
+		@media (max-width: 480px) {
+			gap: 16px;
+		}
+
+		& > a:nth-child(4n+2),
+		& a:nth-child(4n+3) {
+			background: #ffc171;
+		}
+	}
+}

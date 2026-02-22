@@ -1,0 +1,34 @@
+.title {
+	color: #0B0909;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	align-items: center;
+
+	@media (max-width: 768px) {
+		font-size: 32px;
+	}
+
+	@media (max-width: 480px) {
+		font-size: 26px;
+	}
+
+	&::after {
+		content: '';
+		display: inline-block;
+		width: 260px;
+		height: 2px;
+		background: linear-gradient(91.49deg, #FF9C1A 7.92%, #E80505 108.2%);
+		margin-left: 16px;
+		flex-shrink: 0;
+
+		@media (max-width: 768px) {
+			width: 160px;
+		}
+
+		@media (max-width: 480px) {
+			width: 80px;
+			margin-left: 10px;
+		}
+	}
+}

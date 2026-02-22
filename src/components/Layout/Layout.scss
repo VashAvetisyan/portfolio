@@ -1,0 +1,77 @@
+@import "../../style/root";
+
+.app-layout {
+    background: $primary-color;
+    padding: 24px 90px;
+    min-height: 100vh;
+
+    @media (max-width: 1024px) {
+        padding: 24px 40px;
+    }
+
+    @media (max-width: 930px) {
+        padding: 16px 20px;
+    }
+
+    @media (max-width: 480px) {
+        padding: 12px 14px;
+    }
+
+    &__main {
+        flex: 1;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+
+        @media (max-width: 930px) {
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        &__left {
+            padding: 36px 25px;
+            flex: 1;
+            max-width: 400px;
+            height: fit-content;
+            background: #FFF;
+            border-radius: 20px;
+
+            @media (max-width: 930px) {
+                max-width: 100%;
+                padding: 24px 20px;
+            }
+
+            @media (max-width: 480px) {
+                padding: 20px 16px;
+            }
+        }
+
+        &__right {
+            flex: 2;
+
+            @media (max-width: 930px) {
+                flex: unset;
+                width: 100%;
+            }
+
+            &__main {
+                padding: 32px 70px;
+                border-radius: 20px;
+                background: #fff;
+
+                @media (max-width: 1024px) {
+                    padding: 32px 40px;
+                }
+
+                @media (max-width: 930px) {
+                    padding: 24px 24px;
+                }
+
+                @media (max-width: 480px) {
+                    padding: 20px 16px;
+                }
+            }
+        }
+    }
+}

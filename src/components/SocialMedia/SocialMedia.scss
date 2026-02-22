@@ -1,0 +1,17 @@
+.socialMedia {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 24px;
+
+	@media (max-width: 768px) {
+		margin-top: 16px;
+		justify-content: space-evenly;
+		gap: 16px;
+	}
+
+	@media (max-width: 480px) {
+		margin-top: 12px;
+		gap: 12px;
+	}
+}

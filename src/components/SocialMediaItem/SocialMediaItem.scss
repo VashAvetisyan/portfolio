@@ -1,0 +1,29 @@
+@import "../../style/root";
+
+.socialMediaItem {
+	height: 70px;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: $primary-color;
+	border-radius: 20%;
+
+	@media (max-width: 768px) {
+		height: 54px;
+		width: 54px;
+	}
+
+	@media (max-width: 480px) {
+		height: 44px;
+		width: 44px;
+	}
+
+	img {
+		max-width: 20px;
+
+		@media (max-width: 480px) {
+			max-width: 16px;
+		}
+	}
+}

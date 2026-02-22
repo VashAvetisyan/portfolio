@@ -1,0 +1,17 @@
+.workNavbarLink {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	cursor: pointer;
+	color: #57657A;
+	list-style: none;
+
+	@media (max-width: 480px) {
+		font-size: 14px;
+	}
+
+	&--active {
+		color: #FA5252;
+	}
+}

@@ -1,0 +1,35 @@
+.homeInfoItem {
+	padding: 24px;
+	border-radius: 20px;
+	background: #F2F7FC;
+
+	&:nth-child(1),
+	&:nth-child(4) {
+		background: #FFEBD1;
+	}
+
+	&__header {
+		display: flex;
+		align-items: center;
+
+		&__title {
+			font-family: 'Poppins';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 24px;
+			color: #000000;
+			margin-left: 8px;
+		}
+
+	}
+
+	&__text {
+		margin-top: 6px;
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		color: #000000;
+	}
+}

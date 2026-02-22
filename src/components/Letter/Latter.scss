@@ -1,0 +1,62 @@
+.latter {
+	padding: 35px 40px;
+	background: #F8FBFB;
+	border-radius: 20px;
+	margin-top: 32px;
+
+	@media (max-width: 768px) {
+		padding: 24px 24px;
+		margin-top: 24px;
+	}
+
+	@media (max-width: 480px) {
+		padding: 20px 16px;
+		border-radius: 16px;
+	}
+
+	&__text {
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 30px;
+		letter-spacing: 0.025em;
+		color: #000000;
+
+		@media (max-width: 480px) {
+			font-size: 14px;
+			line-height: 26px;
+		}
+
+		span {
+			font-weight: bolder;
+		}
+	}
+
+	form {
+		margin-top: 16px;
+
+		input {
+			margin-top: 8px;
+		}
+
+		button {
+			padding: 10px 30px;
+			margin-top: 24px;
+			border-radius: 20px;
+			font-family: 'Raleway';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 16px;
+			color: #000000;
+			background: transparent;
+			border-color: #FF9C1A;
+			cursor: pointer;
+			width: 100%;
+
+			@media (min-width: 480px) {
+				width: fit-content;
+			}
+		}
+	}
+}
