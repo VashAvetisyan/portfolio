@@ -1,12 +1,12 @@
 import './HomeInfoItem.scss'
 
-type HomeInfoItemProp = {
-	icon: string,
-	title: string,
-	text: string
+interface HomeInfoItemProps {
+  icon: string;
+  title: string;
+  text: string;
 }
 
-const HomeInfoItem = ({ icon, title, text }) => {
+const HomeInfoItem = ({ icon, title, text } : HomeInfoItemProps) => {
 	return (
 		<div className='homeInfoItem'>
 			<div className='homeInfoItem__header'>

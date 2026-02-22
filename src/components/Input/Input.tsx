@@ -4,9 +4,9 @@ type InputProps = {
 	text: string
 }
 
-const Input = ({text}) => {
+const Input = ({ text }: InputProps) => {
 	return (
-		<input type="text" placeholder={text} className='input'/>
+		<input type="text" placeholder={text} className='input' />
 	)
 }
 
