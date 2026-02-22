@@ -4,7 +4,7 @@ import ContactPageHeaderItem from '../../components/ContactPageHeaderItem/Contac
 import Title from '../../components/Title/Title';
 
 import phoneIcon from '../../assets/PhoneIcon.svg'
-import emailIcon from '../../assets/emailIcon.svg'
+import emailIcon from '../../assets/EmailIcon.svg'
 import Latter from '../../components/Letter/Latter';
 
 
