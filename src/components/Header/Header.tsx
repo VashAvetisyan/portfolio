@@ -1,9 +1,9 @@
 import HeaderLink from '../HeaderLink/HeaderLink';
 
-import homeSvg from '../../assets/homeSvg.svg'
-import resumeSvg from '../../assets/resumeSvg.svg'
-import workSvg from '../../assets/workSvg.svg'
-import contactSvg from '../../assets/contactSvg.svg'
+import homeSvg from '../../assets/homeSVG.svg'
+import resumeSvg from '../../assets/resumeSVG.svg'
+import workSvg from '../../assets/workSVG.svg'
+import contactSvg from '../../assets/contactSVG.svg'
 
 
 import './Header.scss'
