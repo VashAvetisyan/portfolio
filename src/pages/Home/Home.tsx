@@ -34,7 +34,7 @@ const Home = () => {
 		<div className="app-home">
 			<Title>About Me</Title>
 			<p className="app-home__text">
-				I am a 21-year-old Front-End Developer from Vashington. I am currently a second-year student of Informatics and Applied Mathematics at Yerevan State University. I am motivated to work in the IT industry and continuously improve my technical skills by learning new technologies.
+				I am Vashington,  21-year-old Front-End Developer . I am currently a second-year student of Informatics and Applied Mathematics at Yerevan State University. I am motivated to work in the IT industry and continuously improve my technical skills by learning new technologies.
 			</p>
 			{/* <SecondTitle>What i do!</SecondTitle>
 			<div className="app-home__mainInfo">
