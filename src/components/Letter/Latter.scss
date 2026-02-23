@@ -38,6 +38,31 @@
 
 		input {
 			margin-top: 8px;
+			display: block;
+			border: none;
+			width: 100%;
+			background: transparent;
+			height: 40px;
+			border-bottom: 2px solid RGB(181, 181, 181, 0.2);
+			outline: none;
+
+			@media (max-width: 480px) {
+				height: 36px;
+			}
+
+			&::placeholder {
+				font-family: 'Raleway';
+				font-style: normal;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 20px;
+				letter-spacing: 0.025em;
+				color: #000000;
+
+				@media (max-width: 480px) {
+					font-size: 14px;
+				}
+			}
 		}
 
 		button {
